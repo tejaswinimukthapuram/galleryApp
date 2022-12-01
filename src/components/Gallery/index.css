@@ -1,0 +1,47 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+}
+
+.thumbnails-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-shadow: 3px 3px 3px grey;
+}
+
+.image-container {
+  width: 350px;
+  height: 300px;
+  border-radius: 7px;
+}
+
+.image {
+  width: 400px;
+  height: 240px;
+  margin-bottom: 6px;
+}
+
+.heading {
+  font-size: 16px;
+}
+
+.author {
+  font-size: 13px;
+  margin-top: 5px;
+}
